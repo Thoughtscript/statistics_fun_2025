@@ -46,9 +46,6 @@ am_true | NULL  # logical(0)
 am_true || NULL # TRUE 
 
 # --------------------------------------------------------------------- #
-
-
-# --------------------------------------------------------------------- #
 # | and & support vector operations
 
 c(TRUE, FALSE, FALSE) | c(TRUE, TRUE, TRUE) # TRUE TRUE TRUE

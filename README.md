@@ -14,8 +14,9 @@
     docker compose up
     ```
 1. Then open: http://localhost:8787/ with **Username**: `rstudio` and **Password**: `password`.
-2. The code samples will appear within the `home/rstudio` default workspace. (Highlight the entire file to run the example. Will work with **R Visualizations**.)
-3. The samples can also be run using `run.sh` from `home/rstudio` within the **Container** (**Exec**, although this method will not render **R Visualization** in **Terminal**).
+1. Run the `init.r` script first (to download all needed dependencies).
+1. The code samples will appear within the `home/rstudio` default workspace (under `examples`). (Highlight the entire file to run an example. Will work with **R Visualizations**.)
+1. The samples can also be run using `run.sh` from `home/rstudio` within the **Container** (**Exec**, although this method will not render **R Visualization** in **Terminal**).
 
 
 > Uses `Rscript` to print to Docker System Out and [Rocker](https://github.com/rocker-org/rocker) for Dockerization.
