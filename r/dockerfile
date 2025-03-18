@@ -1,0 +1,4 @@
+FROM rocker/rstudio:4.4.3
+
+RUN echo "Creating working dir and copying files"
+COPY . home/rstudio

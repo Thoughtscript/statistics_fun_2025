@@ -1,0 +1,10 @@
+services:
+  r:
+    build:
+      context: ./r
+      dockerfile: dockerfile
+    ports:
+      #- 8000:8000
+      - 8787:8787 
+    environment:
+      - PASSWORD=password
