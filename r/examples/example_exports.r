@@ -10,6 +10,6 @@ m <- module({
 
 m$foo()
 
-# imported with library(...) or import::from(...)
+# imported with import::from(...)
 
 # --------------------------------------------------------------------- #

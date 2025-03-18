@@ -3,6 +3,7 @@
 [![](https://img.shields.io/badge/r-4.4.3-red.svg)](https://intro2r.com/)
 [![](https://img.shields.io/badge/rocker-rstudio-teal.svg)](https://rocker-project.org/images/versioned/rstudio.html)
 [![](https://img.shields.io/badge/Docker-blue.svg)](https://www.docker.com/) 
+[![](https://img.shields.io/badge/ASU%20MAT-142-crimson.svg)](https://math.asu.edu/mat142)
 
 ## Set Up and Installation
 

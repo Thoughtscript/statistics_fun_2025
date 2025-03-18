@@ -16,3 +16,8 @@ plot(custom.data$ids, custom.data$freq) # plot numbers against numbers
 pie(c(10,20,5,5,5,55), label = c("A","B","C","D","E","F"), main="Example")
 
 # --------------------------------------------------------------------- #
+
+# Note that the above will be saved to 'Rplots.pdf' 
+## within 'home/examples' within the Docker Container.
+
+# --------------------------------------------------------------------- #
