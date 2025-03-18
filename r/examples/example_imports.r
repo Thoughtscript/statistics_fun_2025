@@ -33,6 +33,7 @@ print(data.example)
 
 ## Use path: examples/example_exports.r in RStudio (relative to 'Home')
 import::from("example_exports.r", m)
+
 m$foo()
 
 # Only imports the module

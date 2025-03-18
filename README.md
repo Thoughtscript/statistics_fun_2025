@@ -5,6 +5,10 @@
 [![](https://img.shields.io/badge/Docker-blue.svg)](https://www.docker.com/) 
 [![](https://img.shields.io/badge/ASU%20MAT-142-crimson.svg)](https://math.asu.edu/mat142)
 
+*Fun with Statistics* - Docker Container for running *R* scripts. 
+
+> Taking [ASU's MAT 142](https://math.asu.edu/mat142) as a prereq (since I tested out of all Math requirements last time around).
+
 ## Set Up and Installation
 
 1. First launch the **Container**:
@@ -17,7 +21,9 @@
 1. Then open: http://localhost:8787/ with **Username**: `rstudio` and **Password**: `password`.
 1. Run the `init.r` script first (to download all needed dependencies).
 1. The code samples will appear within the `home/rstudio` default workspace (under `examples`). (Highlight the entire file to run an example. Will work with **R Visualizations**.)
-1. The samples can also be run using `run.sh` from `home/rstudio` within the **Container** (**Exec**, although this method will not render **R Visualization** in **Terminal**).
+    * `R` apparently uses different relative file paths depending on which tool you run `.r` scripts with.
+    * As such, you may need to prepend `examples/` when [importing](./r/examples/example_imports.r) data files, modules, or scripts.
+2. The samples can also be run using `run.sh` from `home/rstudio` within the **Container** (**Exec**, although this method will not render **R Visualization** in **Terminal**).
 
 
 > Uses `Rscript` to print to Docker System Out and [Rocker](https://github.com/rocker-org/rocker) for Dockerization.
